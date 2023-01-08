@@ -1,16 +1,22 @@
 values = []
 
 while True:
-    data = input("Enter a list of integers, separated by spaces: ")
+    data = input("Enter a list of numbers and in the end press enter to finish: ")
     if data:
-        values += [int(x) for x in data.split()]
+        values += [int(x) for x in data.split()]  # '+=' adding values to the 'values' list
     else:
-        print(values)
+        print("The list is:", values)
         break
 
-# print(The Smallest integer: 1 (index 5) Largest integer: 10 (index 0))
-# count = 0
-# for element in my_list:
-# count += 1
-# The list.append() method is used to add an item to the end of a list.
+biggest = None  # initializing values as None(empty to
+smallest = None
+
+for x in values:
+    if biggest is None or x > biggest:
+        biggest = x
+    if smallest is None or x < smallest:
+        smallest = x
+
+print("The biggest value is:", biggest, "\nthe smallest value is: ", smallest)
+
 

@@ -1,0 +1,9 @@
+.idea/.gitignore
+.idea/largest_and_smallest_integer.iml
+.idea/misc.xml
+.idea/modules.xml
+.idea/vcs.xml
+.idea/inspectionProfiles/profiles_settings.xml
+.vscode/c_cpp_properties.json
+.vscode/launch.json
+.vscode/settings.json

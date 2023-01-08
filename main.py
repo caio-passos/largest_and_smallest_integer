@@ -18,5 +18,3 @@ for x in values:
         smallest = x
 
 print("The biggest value is:", biggest, "\nthe smallest value is: ", smallest)
-
-
